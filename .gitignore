@@ -1,0 +1,59 @@
+############################################
+#  .NET / Visual Studio / VS Code          #
+############################################
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.vs/
+
+############################################
+#  Build outputs & logs                    #
+############################################
+*.log
+*.tlog
+*.vspscc
+TestResult*/                # dotnet test results
+coverage*/                  # code coverage
+
+############################################
+#  NuGet                                #
+############################################
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+.nuget/
+
+############################################
+#  EF Core tooling & migrations artifacts  #
+############################################
+# Keep migration code, ignore auto-generated snapshots if you like:
+# **/*Snapshot*.cs
+
+############################################
+#  Database files (generated at runtime)   #
+############################################
+# Exclude the local SQLite database created by migrations/run
+UsernameService/UsernameService.Api/users.db
+
+############################################
+#  OS-specific cruft                       #
+############################################
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+desktop.ini
+# Linux
+*~
+
+############################################
+#  JetBrains / Rider                       #
+############################################
+.idea/
+*.sln.iml
+
