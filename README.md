@@ -33,7 +33,7 @@ dotnet run --project UsernameService.Api
 dotnet test
 
 
-Browse **[https://localhost:7001/swagger](https://localhost:7001/swagger)** (or the HTTP port displayed in the console).  
+Browse **[Swagger UI(https://localhost:7001/swagger)** (or the HTTP port displayed in the console).  
 
 You’ll see two endpoints:
 
